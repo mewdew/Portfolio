@@ -1,0 +1,93 @@
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+    color: black;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+/* Style the text boxes */
+input, textarea {
+	width:439px;
+	height:27px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+textarea {
+	height:213px;
+}
+
+#send {
+    width:127px;
+    height:38px;
+    background:url(send-button.svg);
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+	#send:hover {
+	    opacity:.9;
+}
+
+
+
+@media (min-width: 1200px) {
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}  
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px){
+
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+input, textarea {
+	width:220px;
+	height:14px;
+	background:#efefef;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+	#send {
+    width:65px;
+    height:18px;
+    background:url(send-button.svg);
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+ 
+  }
+
+
+
+
+
+
