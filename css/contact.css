@@ -11,7 +11,7 @@ form {
 }
 
 /* Style the text boxes */
-input, textarea {
+input {
 	background:#efefef;
 	border:1px solid #dedede;
 	padding:10px;
