@@ -179,7 +179,7 @@ body{
 
 #modal-gallery{
   overflow: visible;
-  position: relative;
+  position: fixed;
 
 
 }
