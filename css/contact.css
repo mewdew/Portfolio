@@ -11,7 +11,7 @@ form {
 }
 
 /* Style the text boxes */
-input {
+input, textarea {
 	background:#efefef;
 	border:1px solid #dedede;
 	padding:10px;
@@ -59,20 +59,8 @@ textarea {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-input, textarea {
-	background:#efefef;
-	border:1px solid #dedede;
-	padding:10px;
-	margin-top:3px;
-	font-size:0.9em;
-	color:#3a3a3a;
-}
 
-	#send {
-    border:none;
-    margin-top:20px;
-    cursor:pointer;
-}
+
 
 }
 
