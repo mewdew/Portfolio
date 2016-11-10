@@ -22,7 +22,7 @@ input, textarea {
 
 textarea {
    height:auto;
-   width:auto;
+   width:80%;
 }
 
 #send {
