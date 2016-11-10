@@ -21,7 +21,8 @@ input, textarea {
 }
 
 textarea {
-	height:;
+   height:auto;
+   width:auto;
 }
 
 #send {
