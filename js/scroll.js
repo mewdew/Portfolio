@@ -163,39 +163,34 @@
 
      // Prepare everything before binding wheel scroll
 
-    // elem.addClass("onepage-wrapper").css("position","relative");
-    // $.each( sections, function(i) {
-    // 	console.log(i);
-    //   $(this).css({
-    //     position: "absolute",
-    //     top: topPos + "%"
-    //   }).addClass("section").attr("data-index", i+1);
-
-
-    //   $(this).css({
-    //     position: "absolute",
-    //     left: ( settings.direction == 'horizontal' )
-    //       ? leftPos + "%"
-    //       : 0,
-    //     top: ( settings.direction == 'vertical' || settings.direction != 'horizontal' )
-    //       ? topPos + "%"
-    //       : 0
-    //   });
-
-    //   if (settings.direction == 'horizontal')
-    //     leftPos = leftPos + 100;
-    //   else
-    //     topPos = topPos + 100;
-    // }); 
-
-    // elem.swipeEvents().bind("swipeDown",  function(event){
-    //   if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-    //   elem.moveUp();
-    // }).bind("swipeUp", function(event){
-    //   if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
-    //   elem.moveDown();
-    // });
-
+     elem.addClass("onepage-wrapper").css("position","relative");
+     $.each( sections, function(i) {
+     	console.log(i);
+       $(this).css({
+         position: "absolute",
+         top: topPos + "%"
+       }).addClass("section").attr("data-index", i+1)
+       $(this).css({
+         position: "absolute",
+         left: ( settings.direction == 'horizontal' )
+           ? leftPos + "%"
+           : 0,
+         top: ( settings.direction == 'vertical' || settings.direction != 'horizontal' )
+           ? topPos + "%"
+           : 0
+       })
+       if (settings.direction == 'horizontal')
+         leftPos = leftPos + 100;
+       else
+         topPos = topPos + 100;
+     });
+     elem.swipeEvents().bind("swipeDown",  function(event){
+       if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
+       elem.moveUp();
+     }).bind("swipeUp", function(event){
+       if (!$("body").hasClass("disabled-onepage-scroll")) event.preventDefault();
+       elem.moveDown();
+     })
     $(document).bind('mousewheel DOMMouseScroll MozMousePixelScroll', function(event) {
       event.preventDefault();
       var delta = event.originalEvent.wheelDelta || -event.originalEvent.detail;
