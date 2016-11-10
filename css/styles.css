@@ -140,8 +140,10 @@ body{
 }
 
 .icon {
-  height: 70%;
-  width: 70%;
+  max-width: 60px;
+  max-height: 60px;
+  min-width: 40px;
+  min-height: 40px;	
   margin: 10px;
   background: white;
 }
