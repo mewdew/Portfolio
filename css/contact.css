@@ -35,7 +35,11 @@ textarea {
    background-color: green;
 }
 
-
+.contactL .contactR {
+   -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;   
+    box-sizing: border-box;   
+}
 
 @media (min-width: 1200px) {
   }
