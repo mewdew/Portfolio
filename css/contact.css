@@ -8,13 +8,10 @@ label {
 
 form {
     margin:0 auto;
-    width:459px;
 }
 
 /* Style the text boxes */
 input, textarea {
-	width:439px;
-	height:27px;
 	background:#efefef;
 	border:1px solid #dedede;
 	padding:10px;
@@ -28,16 +25,14 @@ textarea {
 }
 
 #send {
-    width:127px;
-    height:38px;
-    background:url(send-button.svg);
     border:none;
     margin-top:20px;
     cursor:pointer;
 }
 
-	#send:hover {
-	    opacity:.9;
+#send:hover {
+   opacity:.9;
+   background-color: green;
 }
 
 
@@ -60,8 +55,6 @@ textarea {
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 input, textarea {
-	width:220px;
-	height:14px;
 	background:#efefef;
 	border:1px solid #dedede;
 	padding:10px;
@@ -71,9 +64,6 @@ input, textarea {
 }
 
 	#send {
-    width:65px;
-    height:18px;
-    background:url(send-button.svg);
     border:none;
     margin-top:20px;
     cursor:pointer;
