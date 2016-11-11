@@ -190,13 +190,7 @@ body{
 
 }
 
-.modal-open {
-  overflow: visible;
-}
 
-.modal-dialog {
- overflow-y: visible;
-}
 
 .modal{
 	position: relative;
