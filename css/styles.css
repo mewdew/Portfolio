@@ -194,7 +194,9 @@ body{
   overflow: visible;
 }
 
-
+.modal-dialog {
+ overflow-y: visible;
+}
 
 .modal{
 	position: relative;
@@ -235,11 +237,9 @@ body{
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-/*.thumbnail {
-  max-width: 300px;
-  max-height: 130px;
-  margin: auto;
-}*/
+	.hiddenXs {
+	  display: none;
+	}
 
 
 }
