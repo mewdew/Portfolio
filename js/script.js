@@ -16,6 +16,8 @@ $('.row .thumbnail').on('load', function() {
      item.addClass('active');
     }
   }
+  $('body').css('overflow','hidden');
+$('body').css('position','fixed');
 });
 
 /* activate the carousel */
@@ -48,10 +50,7 @@ $(".row .thumbnail").click(function(){
     // show the modal
    $("#modal-gallery").modal("show");
  
-  $('body').css('overflow','hidden');
-  $('body').css('position','fixed');
-
-});
+ });
 
 //  $(".main").onepage_scroll({
 //    sectionContainer: "section",     // sectionContainer accepts any kind of selector in case you don't want to use section
