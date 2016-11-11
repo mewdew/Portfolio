@@ -202,6 +202,11 @@ body{
 	position: relative;
 }
 
+body.modal-open {
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+}
 
 /* The Close Button */
 .close {
