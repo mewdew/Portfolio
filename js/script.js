@@ -16,8 +16,7 @@ $('.row .thumbnail').on('load', function() {
      item.addClass('active');
     }
   }
-  $('body').css('overflow','hidden');
-$('body').css('position','fixed');
+
 });
 
 /* activate the carousel */
