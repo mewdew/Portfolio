@@ -48,6 +48,8 @@ $(".row .thumbnail").click(function(){
     // show the modal
    $("#modal-gallery").modal("show");
  
+  $('body').css('overflow','hidden');
+  $('body').css('position','fixed');
 
 });
 
