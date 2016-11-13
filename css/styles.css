@@ -141,16 +141,16 @@ body{
 }
 
 .icon {	
-  margin: 10px;
+  margin: 5px;
   background: white;
   max-width: 60px;
   max-height: 60px;
-  min-width: 40px;
-  min-height: 40px;
+  min-width: 30px;
+  min-height: 30px;
 }
 
 .Social-links{
-  margin: 0 auto;
+  margin: 0;
 }
 
 ul.links {
