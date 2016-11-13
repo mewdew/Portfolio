@@ -1,0 +1,49 @@
+body{
+	margin: 5px;
+	border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+
+*{
+	box-sizing: border-box;
+}
+
+.headerC{
+
+	background-color: linen;
+	padding: 2px;
+}
+
+#obj{
+
+	background-color: linen;
+	padding: 2px;
+}
+
+#tran{
+
+	background-color: linen;
+	padding: 2px;
+}
+
+#story{
+
+	background-color: linen;
+	padding: 2px;
+}
+
+#lowC {
+ 
+	background-color: linen;
+	padding: 2px;
+}
+
+
+#pic{
+	background-image: url("f34c9cd3_o.jpeg");
+
+}
