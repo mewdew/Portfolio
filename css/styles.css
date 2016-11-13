@@ -90,9 +90,15 @@ body{
 }
 
 #Contact {
+    margin: 0px;
+    padding: 0px;
     background-color: #FFFFF0;
     height: 100vh;
     
+}
+
+#contactCon {
+  top: 30%;
 }
 
 .secCon{
