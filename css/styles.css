@@ -47,12 +47,8 @@ body{
 
 
 
-.active_underlined a {
-  color: #fff;
-  border-bottom: 2px solid black;
-}
 
-a.active_underlined {
+.active {
   color: #fff;
   border-bottom: 2px solid black;
 }
