@@ -252,10 +252,12 @@
 	
       	$(window).scroll(function() {
           var position = $(this).scrollTop();
+		console.log("position");
       
           $('.section').each(function() {
               var target = $(this).offset().top;
               var id = $(this).attr('id');
+		  console.log("target");
       
               if (position >= target) {
                    $('#mainNav > ul > li > a').removeClass('active');
