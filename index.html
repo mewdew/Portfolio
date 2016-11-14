@@ -248,7 +248,22 @@
      <script src="js/bootstrap.js"></script>
      <script src="js/ajax-utils.js"></script>
      <script src="js/script.js"></script>
-     <script type="text/javascript"></script>
+     <script type="text/javascript">
+	
+      	$(window).scroll(function() {
+          var position = $(this).scrollTop();
+      
+          $('.section').each(function() {
+              var target = $(this).offset().top;
+              var id = $(this).attr('id');
+      
+              if (position >= target) {
+                   $('#mainNav > ul > li > a').removeClass('active');
+                   $('#mainNav > ul > li > a[href=#' + id + ']').addClass('active');
+              }
+          });
+      });
+	</script>
  
 </body>
 </html>
