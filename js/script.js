@@ -1,9 +1,11 @@
+$(document).ready(function(){
 
 
 
-// $(document).ready(function (){
-//   $('body').scrollspy({target: "#navbar"})
-// });
+});
+
+
+
 
 /* copy loaded thumbnails into carousel */
 $('.row .thumbnail').on('load', function() {

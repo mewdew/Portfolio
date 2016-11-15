@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     overflow-x: hidden;
-    overflow-y: scroll; 
 }
 
 body{
@@ -43,19 +42,14 @@ body{
     color: black;
     font-size: 15px;
     font-weight: 700;
-    padding: 20px 15px 10px 15px;
+    margin: 5px;
+    padding: 10px;
 }
 
 
 
-.active_underlined a {
-  color: #fff;
-  border-bottom: 2px solid black;
-}
-
-a.active_underlined {
-  color: #fff;
-  border-bottom: 2px solid black;
+.mainNav li a.nav-active {
+    border-bottom: 2px solid black;
 }
 
 
@@ -65,12 +59,14 @@ a.active_underlined {
   float: left;
   height: 50px;
   width: 50px;
+  margin: 10px;
+  margin-right: 3px;
 }
 
 .mainNav li a:hover {
   background-color: #555;
   color: white;
-  border-radius: 30%;
+  border-radius: 40%;
 }
 
 
@@ -105,7 +101,7 @@ a.active_underlined {
     margin: 0px;
     padding: 0px;
     background-color: #FFFFF0;
-    height: auto;
+    height: 100vh;
     
 }
 

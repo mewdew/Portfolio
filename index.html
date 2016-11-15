@@ -23,22 +23,22 @@
 
 
  <div id="fullpage">
-
-
+ 
+ <div id="nav-anchor">
   <nav class="myNav nav" role="navigation">
 
-  <div id="navbar">
+  
    <ul class="mainNav" class="nav navbar-nav">
    <li><a href="#Home">HOME</a></li>
    <li><a href="#Work">WORK</a></li>
-   <li><a href="#"><span id="logo-img"></span></a></li>
+    <span id="logo-img"></span>
    <li><a href="#About">ABOUT</a></li>
    <li><a href="#Contact">CONTACT</a></li>
   
-  </ul>	
-  </div>
- </nav>
+   </ul>	
 
+   </nav>
+  </div>
 
 
     <div class="section">
@@ -248,7 +248,48 @@
      <script src="js/bootstrap.js"></script>
      <script src="js/ajax-utils.js"></script>
      <script src="js/script.js"></script>
-     <script type="text/javascript"></script>
+     <script type="text/javascript">
+     	
+     	$(document).ready(function(){
+          
+           var aItems = $("nav li").children();
+           var aArray = [];
+
+           for (var i = 0; i < aItems.length; i++) {
+ 				var aItem = aItems[i];
+ 				var ahref = $(aItem).attr('href');
+ 				console.log(ahref);
+ 				aArray.push(ahref);  			        
+           }
+           
+
+
+          $(window).scroll(function(){
+          	var windowPos = $(window).scrollTop();
+          	var windowHeight = $(window).height();
+          	var docHeight = $(document).height();
+
+          		for (var i = 0; i < aArray.length; i++) {
+          			var theID = aArray[i];
+          			var divPos = $(theID).offset().top;
+          			var divHeight = $(theID).height();
+          			console.log(theID);
+          			console.log(divHeight);
+
+
+          			if (windowPos > divPos && windowPos < (divPos + divHeight)){
+          				$("a[href='" + theID + "']").addClass("nav-active");
+          			} else {
+          				$("a[href='" + theID + "']").removeClass("nav-active");
+
+          			}
+          		
+          		}
+
+          }) 
+
+     	})
+     </script>
  
 </body>
 </html>
