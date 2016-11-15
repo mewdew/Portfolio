@@ -64,9 +64,7 @@ body{
 }
 
 .mainNav li a:hover {
-  background-color: #555;
-  color: white;
-  border-radius: 40%;
+  border-bottom: 2px solid black;
 }
 
 
