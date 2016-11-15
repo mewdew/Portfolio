@@ -48,15 +48,8 @@ body{
 
 
 
-<<<<<<< HEAD
 .mainNav li a.nav-active {
     border-bottom: 2px solid black;
-=======
-
-.active {
-  color: #fff;
-  border-bottom: 2px solid black;
->>>>>>> d754d8d12f4167d41bb7d323d8a43c3e4855192b
 }
 
 
