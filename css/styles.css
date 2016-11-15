@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body{
@@ -21,6 +21,7 @@ body{
     right: 0;
     max-height: 70px;
     z-index: 999;
+    overflow: hidden;	
 
 }
 
