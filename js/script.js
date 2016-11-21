@@ -1,8 +1,42 @@
 $(document).ready(function(){
+          
+           var aItems = $("nav li").children();
+           var aArray = [];
+
+           for (var i = 0; i < aItems.length; i++) {
+ 				var aItem = aItems[i];
+ 				var ahref = $(aItem).attr('href');
+ 				console.log(ahref);
+ 				aArray.push(ahref);  			        
+           }
+           
 
 
+          $(window).scroll(function(){
+          	var windowPos = $(window).scrollTop();
+          	var windowHeight = $(window).height();
+          	var docHeight = $(document).height();
 
-});
+          		for (var i = 0; i < aArray.length; i++) {
+          			var theID = aArray[i];
+          			var divPos = $(theID).offset().top;
+          			var divHeight = $(theID).height();
+          			console.log(theID);
+          			console.log(divHeight);
+
+
+          			if (windowPos > divPos && windowPos < (divPos + divHeight)){
+          				$("a[href='" + theID + "']").addClass("nav-active");
+          			} else {
+          				$("a[href='" + theID + "']").removeClass("nav-active");
+
+          			}
+          		
+          		}
+
+          }) 
+
+     	})
 
 
 
