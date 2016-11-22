@@ -70,7 +70,7 @@ body{
 
 
 #Home {
-   background: url('Hi.jpg') no-repeat; 
+   background: url('base.jpg') no-repeat; 
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -78,7 +78,8 @@ body{
 }
 
 #Work {
-   background: url('bg_all.jpg') no-repeat;
+   /*background: url('bg_all.jpg') no-repeat;*/
+   background-color: grey;
    height: 100vh;
    box-sizing: border-box;
    width: 100%;
@@ -89,7 +90,7 @@ body{
 }
 
 #About {
-    background: url('bg_all.jpg') no-repeat;
+    background: url('About.jpg') no-repeat;
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -97,7 +98,7 @@ body{
 }
 
 #Contact {
-    background: url('bg_all.jpg') no-repeat;
+    background-color: grey;
     margin: 0px;
     padding: 0px;
     background-color: #7f7c75;
