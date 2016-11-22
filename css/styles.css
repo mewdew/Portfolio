@@ -40,7 +40,7 @@ body{
 .mainNav li a {
     float: left;
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 15px;
     font-weight: 700;
     margin: 5px;
@@ -50,7 +50,7 @@ body{
 
 
 .mainNav li a.nav-active {
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid white;
 }
 
 
@@ -65,12 +65,12 @@ body{
 }
 
 .mainNav li a:hover {
-	border-bottom: 2px solid black;
+	border-bottom: 2px solid white;
 }
 
 
 #Home {
-   background: url('homebg.jpg') no-repeat; 
+   background: url('b2.jpg') no-repeat; 
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -78,7 +78,7 @@ body{
 }
 
 #Work {
-   background-color: #FFFFF0;
+   background-color: #DEB887;
    height: 100vh;
    box-sizing: border-box;
    width: 100%;
@@ -99,7 +99,7 @@ body{
 #Contact {
     margin: 0px;
     padding: 0px;
-    background-color: #FFFFF0;
+    background-color: #D2B48C;
     height: 100vh;
     
 }
