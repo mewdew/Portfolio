@@ -40,7 +40,7 @@ body{
 .mainNav li a {
     float: left;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 15px;
     font-weight: 700;
     margin: 5px;
@@ -70,7 +70,7 @@ body{
 
 
 #Home {
-   background: url('base.jpg') no-repeat; 
+   background: url('Hi.jpg') no-repeat; 
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -78,7 +78,7 @@ body{
 }
 
 #Work {
-   /*background: url('bg_all.jpg') no-repeat;*/
+   background: url('page2.jpg') no-repeat;
    background-color: grey;
    height: 100vh;
    box-sizing: border-box;
@@ -90,7 +90,7 @@ body{
 }
 
 #About {
-    background: url('About.jpg') no-repeat;
+    background: url('page3.jpg') no-repeat;
     -moz-background-size:100% 100%;
     -webkit-background-size:100% 100%;
     background-size:100% 100%;
@@ -98,7 +98,7 @@ body{
 }
 
 #Contact {
-    background: url('3.jpg') no-repeat;
+    background: url('page4.jpg') no-repeat;
     background-color: grey;
     margin: 0px;
     padding: 0px;
