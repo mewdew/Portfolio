@@ -50,7 +50,7 @@ body{
 
 
 .mainNav li a.nav-active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid black;
 }
 
 
@@ -65,7 +65,7 @@ body{
 }
 
 .mainNav li a:hover {
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid black;
 }
 
 
